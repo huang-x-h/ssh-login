@@ -1,0 +1,36 @@
+{
+  "name": "ssh-login",
+  "version": "0.1.0",
+  "description": "ssh login",
+  "bin": "./cli.js",
+  "preferGlobal": true,
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cli.js",
+    "config.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/huang-x-h/ssh-login.git"
+  },
+  "homepage": "https://github.com/huang-x-h/ssh-login",
+  "keywords": [
+    "ssh",
+    "login"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "huang.xinghui",
+    "email": "huang.x.hui@gmail.com",
+    "url": "http://huang-x-h.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/huang-x-h/ssh-login/issues"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "debug": "^3.1.0",
+    "fs-extra": "^6.0.0"
+  }
+}
